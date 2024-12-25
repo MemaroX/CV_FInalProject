@@ -12,7 +12,7 @@ This project implements a neural network model to classify handwritten digits us
 To set up the environment, use the following commands:
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/MemaroX/CV_FInalProject
 
 # Navigate to the project directory
 cd CV_FInalProject

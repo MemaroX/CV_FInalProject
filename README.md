@@ -19,3 +19,11 @@ cd CV_FInalProject
 
 # Install dependencies
 pip install -r requirements.txt
+
+```
+## Usage
+To use the code ,  use the following commands :
+``` bash
+
+jupyter notebook main.ipynb
+```

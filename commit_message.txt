@@ -1,0 +1,7 @@
+Feat: Finalize project structure, add license/requirements, and enhance README
+
+This commit finalizes the project setup for DigitRecognition:
+- Rearranged files into 'notebooks' and 'assets/images' directories.
+- Added requirements.txt and MIT LICENSE.
+- Updated README.md with project context (final project, 93% score), new structure, and detailed instructions.
+- Project is now ready for final push under the new name.

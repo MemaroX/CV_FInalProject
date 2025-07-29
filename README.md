@@ -1,6 +1,6 @@
-# CV_FInalProject: Handwritten Digit Recognition with TensorFlow and Keras
+# Handwritten Digit Recognition: A Computer Vision Final Project
 
-`CV_FInalProject` is a comprehensive computer vision project focused on the classic problem of **handwritten digit classification**. It implements a neural network model using TensorFlow and Keras to accurately recognize digits from the MNIST dataset, serving as a practical demonstration of fundamental machine learning and deep learning concepts.
+This project implements a neural network model to classify handwritten digits using the MNIST dataset. It was developed as a **final project for a Computer Vision course** and achieved a score of **93%**, demonstrating a strong understanding of machine learning and deep learning fundamentals in the context of image classification.
 
 ## Overview
 
@@ -53,7 +53,7 @@ Follow these instructions to get a copy of the project up and running on your lo
     source venv/bin/activate
 
     # Install required packages
-    pip install tensorflow keras numpy matplotlib jupyter
+    pip install -r requirements.txt
     ```
 
 ### Running the Project
@@ -61,27 +61,30 @@ Follow these instructions to get a copy of the project up and running on your lo
 1.  **Activate your virtual environment** (if you created one).
 2.  **Launch Jupyter Notebook:**
     ```bash
-    jupyter notebook main.ipynb
+    jupyter notebook notebooks/main.ipynb
     ```
-3.  **Open `main.ipynb`:** Your web browser will open with the Jupyter Notebook interface. Click on `main.ipynb` to open the project notebook.
+3.  **Open `main.ipynb`:** Your web browser will open with the Jupyter Notebook interface. Click on `notebooks/main.ipynb` to open the project notebook.
 4.  **Execute Cells:** Run the cells sequentially to see the data loading, model building, training, and evaluation process.
 
 ## Project Structure
 
 ```
-CV_FInalProject/
+./
+├── notebooks/          # Contains the main Jupyter Notebook
+│   └── main.ipynb
+├── assets/
+│   └── images/         # Example images of handwritten digits
+│       ├── number 0.png
+│       └── ...
 ├── docs/               # (Optional) Additional documentation or reports
-├── main.ipynb          # The main Jupyter Notebook containing the project code
-├── number 0.png        # Example image of digit 0
-├── number 1.png        # Example image of digit 1
-├── ...                 # Other example digit images (up to number 9.png)
+├── LICENSE             # Project license
 ├── README.md           # This file
-└── ... (other files like requirements.txt if added later)
+└── requirements.txt    # Python dependencies
 ```
 
 ## Examples
 
-The `number X.png` files are examples of the handwritten digits that the model is trained to recognize.
+The `assets/images/number X.png` files are examples of the handwritten digits that the model is trained to recognize.
 
 ## Contributing
 
